@@ -1,0 +1,29 @@
+{
+  "name": "create-serenity-app",
+  "author": "etulastrada",
+  "version": "1.0.0",
+  "description": "CLI tool to create Discord bots using Rust and Serenity",
+  "main": "index.js",
+  "bin": {
+    "create-serenity-app": "./index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "rust",
+    "serenity",
+    "cli",
+    "create-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/create-serenity-app.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0"
+  }
+}
